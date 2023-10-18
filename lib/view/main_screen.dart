@@ -19,17 +19,12 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   PageController _pageController = PageController();
   int _currentIndex = 0;
-  /////////////////////////////////////
-  //@CodeWithFlexz on Instagram
-  //
-  //AmirBayat0 on Github
-  //Programming with Flexz on Youtube
-  /////////////////////////////////////
+  
   @override
   void initState() {
     super.initState();
 
-    /// For Changing Index of Page View Automatically
+   
     Timer.periodic(const Duration(seconds: 5), (Timer timer) {
       if (_currentIndex < offersList.length - 1) {
         _currentIndex++;
@@ -61,11 +56,11 @@ class _MainScreenState extends State<MainScreen> {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              /// AppBar
+             
               CustomAppBar(
                   size: size, iconSize: iconSize, textTheme: textTheme),
 
-              /// Body
+             
               Container(
                 margin: const EdgeInsets.only(
                     top: 0, right: 15, left: 15, bottom: 0),
@@ -88,71 +83,71 @@ class _MainScreenState extends State<MainScreen> {
                         },
                       ),
 
-                      ///
+                    
                       const SizedBox(
                         height: 20,
                       ),
 
-                      /// Middle Text
+                     
                       MiddleText(
                         textTheme: textTheme,
                         text: MyStrings.categoriesText,
                         delay: 1,
                       ),
 
-                      /// Categories Section
+                     
                       CategoriesSection(size: size, textTheme: textTheme),
 
-                      ///
+                      
                       const SizedBox(
                         height: 15,
                       ),
 
-                      /// Middle Text
+                      
                       MiddleText(
                         textTheme: textTheme,
                         text: MyStrings.hotProductText,
                         delay: 2,
                       ),
 
-                      /// Big Item Section - ListView
+                     
                       BigItemSection(
                         size: size,
                         textTheme: textTheme,
                         itemlist: hotProductList,
                       ),
 
-                      ///
+                      
                       const SizedBox(
                         height: 15,
                       ),
 
-                      /// Middle Text
+                    
                       MiddleText(
                         textTheme: textTheme,
                         text: MyStrings.featuredText,
                         delay: 3,
                       ),
 
-                      /// Big Item Section - ListView
+                      
                       BigItemSection(
                           size: size,
                           textTheme: textTheme,
                           itemlist: featuredList),
 
-                      ///
+                      
                       const SizedBox(
                         height: 15,
                       ),
 
-                      /// Middle Text
+                     
                       MiddleText(
                         textTheme: textTheme,
                         text: MyStrings.bestForCustomerdText,
                         delay: 4,
                       ),
 
-                      /// Big Item Section - ListView
+                      
                       BigItemSection(
                           size: size,
                           textTheme: textTheme,
@@ -169,7 +164,7 @@ class _MainScreenState extends State<MainScreen> {
   }
 }
 
-/// Categories Section
+
 class CategoriesSection extends StatelessWidget {
   const CategoriesSection({
     Key? key,
