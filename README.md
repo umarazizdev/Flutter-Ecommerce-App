@@ -50,22 +50,5 @@ These instructions will help you set up and run the project on your local machin
     flutter run
     ```
 
-## Dependencies
-
-- [Flutter](https://flutter.dev/): Google’s UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-- [Add other dependencies here...]
-
-## Contributing
-
-Feel free to contribute to this project by [opening issues](https://github.com/your-username/your-repo/issues) or creating pull requests. Your input is highly valued!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
-
+## Contact
+If you have any questions or suggestions, feel free to contact us at [umer.aziz.dev@gmail.com].
