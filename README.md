@@ -11,18 +11,15 @@ This Flutter Ecommerce App is a mobile application designed for online shopping,
 
 - **Product Listings:** Browse through a variety of products with detailed information and images.
 
-- **Shopping Cart:** Add products to the shopping cart and manage items before making a purchase.
-
-- **User Authentication:** Secure user authentication for personalized shopping experiences.
-
-- **Order Tracking:** Keep track of your orders and their status.
 
 ## Screenshots
 
 ![Splash Screen](assets/images/1.jpg)
+
 *Caption for Splash Screen*
 
 ![Product Listing](assets/images/2.jpg)
+
 *Caption for Product Listing*
 
 ## Getting Started
