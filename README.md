@@ -35,7 +35,7 @@ These instructions will help you set up and run the project on your local machin
 2. **Navigate to the project folder:**
 
     ```bash
-    cd flutter_ecommerce_app
+    cd Flutter-Ecommerce-App
     ```
 
 3. **Install dependencies:**
